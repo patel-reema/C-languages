@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<conio.h>
+main()
+{
+	char ch;
+	clrscr();
+
+	for(ch='a';ch<='z';ch++)
+	{
+		printf("%c\t",ch);
+	}
+
+
+
+	getch();
+}
